@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  
+  --color-zubba-green: #166534;
+  --color-zubba-amber: #FACC15;
+  --color-zubba-charcoal: #111827;
+  --color-zubba-gray: #F3F4F6;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20;
+  }
+}
+
+body {
+  @apply font-sans text-gray-900 bg-white antialiased;
+}
