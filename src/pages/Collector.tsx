@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Truck, TrendingUp, ShieldCheck, HardHat } from 'lucide-react';
+import { TrendingUp, ShieldCheck, Smartphone } from 'lucide-react';
 import zubbaRider from '../assets/zubba-rider.png';
 
 const Collector = () => {
@@ -17,11 +17,10 @@ const Collector = () => {
                 Join Our Fleet
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Turn Your Tricycle into a Thriving Business
+                Become Part of a Smarter Waste Collection Team
               </h1>
               <p className="text-xl text-gray-400 mb-8">
-                Join the Zubba network. Get more clients, earn steady income, and receive professional gear to work safely.
-              </p>
+                With Zubba, you no longer have to rely only on chance pickups. Get connected to scheduled requests and work with more structure, consistency, and support.              </p>
               <a href="#apply" className="inline-block bg-zubba-amber text-zubba-charcoal font-bold px-8 py-4 rounded-xl hover:bg-yellow-400 transition-colors">
                 Apply to be a Collector
               </a>
@@ -47,19 +46,19 @@ const Collector = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 rounded-2xl">
-              <TrendingUp className="w-12 h-12 text-zubba-green mb-6" />
-              <h3 className="text-xl font-bold mb-3">More Income</h3>
-              <p className="text-gray-600">Access a larger pool of customers and guaranteed payments through our app. No more haggling.</p>
+              <Smartphone className="w-12 h-12 text-zubba-green mb-6" />
+              <h3 className="text-xl font-bold mb-3">Work Smarter, Not Harder</h3>
+              <p className="text-gray-600">Say goodbye to driving around honking your siren. The Zubba app shows you exactly where pickups are needed so you can move with a clear, profitable plan.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-2xl">
-              <HardHat className="w-12 h-12 text-zubba-amber mb-6" />
-              <h3 className="text-xl font-bold mb-3">Professional Gear</h3>
-              <p className="text-gray-600">Receive branded uniforms, helmets, gloves, and safety boots. Look professional and stay safe.</p>
+              <TrendingUp className="w-12 h-12 text-zubba-amber mb-6" />
+              <h3 className="text-xl font-bold mb-3">Steady & Guaranteed Income</h3>
+              <p className="text-gray-600">Get regular, scheduled pickups from verified households. Access a larger pool of customers and receive secure payments directly through the app.</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-2xl">
               <ShieldCheck className="w-12 h-12 text-zubba-green mb-6" />
-              <h3 className="text-xl font-bold mb-3">Steady Jobs</h3>
-              <p className="text-gray-600">Get regular, scheduled pickups. Work on a predictable schedule instead of roaming the streets.</p>
+              <h3 className="text-xl font-bold mb-3">Join a Professional Fleet</h3>
+              <p className="text-gray-600">Operate with dignity. We provide you with branded uniforms, safety gear, and the support network you need to run a respected business.</p>
             </div>
           </div>
         </div>

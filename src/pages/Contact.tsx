@@ -25,17 +25,17 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">Our Office</h3>
-                <p className="text-gray-600 text-sm">East Legon, Accra<br/>Ghana</p>
+                <p className="text-gray-600 text-sm">East Legon, Accra<br />Ghana</p>
               </div>
             </div>
-            
+
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-4">
               <div className="bg-amber-50 p-3 rounded-lg text-zubba-amber">
                 <Phone className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">Call Us</h3>
-                <p className="text-gray-600 text-sm">+233 (0) 50 000 0000<br/>Mon-Fri, 8am-5pm</p>
+                <p className="text-gray-600 text-sm">+233 (0) 55 746 8245<br />Mon-Fri, 8am-5pm</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">Email Us</h3>
-                <p className="text-gray-600 text-sm">hello@zubba.com.gh<br/>support@zubba.com.gh</p>
+                <p className="text-gray-600 text-sm">zubbawastemanagement@gmail.com<br /></p>
               </div>
             </div>
           </div>
