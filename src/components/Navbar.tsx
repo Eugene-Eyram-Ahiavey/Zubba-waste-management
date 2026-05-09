@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import zubbaLogo from '../assets/zubba.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,8 +39,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-zubba-amber p-1.5 rounded-lg group-hover:scale-105 transition-transform">
-              <Leaf className="w-6 h-6 text-zubba-green" />
+            <div className="group-hover:scale-105 transition-transform">
+              <img src={zubbaLogo} alt="Zubba Logo" className="w-10 h-10 object-contain" />
             </div>
             <span className="font-bold text-2xl text-zubba-green tracking-tight">Zubba</span>
           </Link>

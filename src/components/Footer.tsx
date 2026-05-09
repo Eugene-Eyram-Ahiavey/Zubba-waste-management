@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Leaf, Mail, Phone, MapPin, Globe, MessageCircle, AtSign, Share2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe, MessageCircle, AtSign, Share2 } from 'lucide-react';
+import zubbaLogo from '../assets/zubba.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,8 +12,8 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-2">
-              <div className="bg-zubba-amber p-1.5 rounded-lg">
-                <Leaf className="w-6 h-6 text-zubba-green" />
+              <div>
+                <img src={zubbaLogo} alt="Zubba Logo" className="w-10 h-10 object-contain" />
               </div>
               <span className="font-bold text-2xl text-white tracking-tight">Zubba</span>
             </Link>
