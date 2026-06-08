@@ -55,7 +55,7 @@ const Home = () => {
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-extrabold text-zubba-charcoal leading-tight tracking-tight">
-              Smarter Waste <br />
+              CLD Smarter Waste <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-zubba-green to-emerald-600">
                 Collection
               </span> for<br />
